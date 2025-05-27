@@ -425,7 +425,7 @@ header > label.open-popup {
 /* BILDEGALLERI */
 .bildegalleri {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
@@ -1789,4 +1789,30 @@ input[name="romtype"]:checked + .romtype-knapp {
   align-items: center;
   gap: 8px; /* adjust spacing as needed */
   margin-left: auto;
+}
+
+@media (max-width: 900px) {
+    .bildegalleri {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 600px) {
+    .bildegalleri {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .bildegalleri-detalj {
+        display: block;
+    }
+    .stor-bilde, .sma-bilder {
+        width: 100%;
+        height: auto;
+        margin-bottom: 12px;
+    }
+    .info-seksjon {
+        flex-direction: column;
+        gap: 16px;
+    }
 }
