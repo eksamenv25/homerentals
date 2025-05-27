@@ -427,6 +427,8 @@ header > label.open-popup {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .kort-wrapper {
@@ -1799,6 +1801,8 @@ input[name="romtype"]:checked + .romtype-knapp {
 @media (max-width: 600px) {
     .bildegalleri {
         grid-template-columns: 1fr;
+        padding-left: 8px;
+        padding-right: 8px;
     }
 }
 
