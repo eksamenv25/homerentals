@@ -1545,7 +1545,7 @@ input[name="romtype"]:checked + .romtype-knapp {
   z-index: 1000;
 }
 .floating-plus-btn:hover {
-  background-color: #e11d48;
+  background-color: #c84448;
   box-shadow: 0 6px 16px rgba(0,0,0,0.3);
 }
 .floating-plus-btn span {
