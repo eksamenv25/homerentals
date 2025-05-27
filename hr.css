@@ -5,13 +5,13 @@ body {
 
 /* HEADER */
 header {
-    position: relative;
+    position: sticky;
+    top: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 16px 32px;
     border-bottom: 1px solid #ddd;
-    top: 0;
     background-color: white;
     z-index: 1000;
 }
@@ -377,8 +377,11 @@ header > label.open-popup {
 .filter-btn-container {
   display: flex;
   justify-content: flex-end;
-  margin: 2rem 0 1rem 0; /* More space above and below */
-  padding-right: 1.5rem;
+  margin: 2rem 0 1rem 0;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 33px;
 }
 
 .filter-boks {
@@ -427,8 +430,8 @@ header > label.open-popup {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 33px;
+    padding-right: 33px;
 }
 
 .kort-wrapper {
