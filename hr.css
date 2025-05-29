@@ -1405,7 +1405,7 @@ input[name="romtype"]:checked + .romtype-knapp {
     transition: background 0.2s;
 }
 .filter-ferdig-btn:hover {
-    background: #e11d48;
+    background: #c84448;
 }
 
 .kort-info {
